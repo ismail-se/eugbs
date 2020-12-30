@@ -1,0 +1,35 @@
+.hero {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  .left {
+    flex: 1.5;
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      span {
+        color: rgb(219, 4, 4);
+      }
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    .circle {
+      .img {
+        margin-top: 5rem;
+        width: 30rem;
+      }
+    }
+  }
+}

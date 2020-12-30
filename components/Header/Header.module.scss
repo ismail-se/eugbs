@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+
+  .logo {
+    img {
+      height: 3rem;
+    }
+  }
+
+  .nav{
+      ul {
+          list-style: none;
+          display: flex;
+          align-items: center;
+
+          li {
+              margin: 0 1rem;
+          }
+      }
+  }
+}
